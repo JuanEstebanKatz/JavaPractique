@@ -1,3 +1,5 @@
+package com.jkatz.inicio;
+
 import javax.swing.*;
 
 public class Primitivos {

@@ -1,3 +1,5 @@
+package com.jkatz.inicio;
+
 public class ConversionTipos {
     
     public static void main(String[] args) {
