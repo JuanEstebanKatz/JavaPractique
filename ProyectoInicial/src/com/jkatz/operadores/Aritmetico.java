@@ -73,6 +73,9 @@ public class Aritmetico {
         System.out.println("valor de b3: = " + b3 +"\n");
         b3 = i==j && (m>n || ñ==false);
         System.out.println("valor de b3: = " + b3);
+
+        boolean b4 = i==l || n<m && ñ==true; // el AND tiene prioridad sobre el OR
+        System.out.println("b4 = " + b4);
         
     }
 }
