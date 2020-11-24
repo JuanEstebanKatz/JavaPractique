@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class OperadoresLogicosLogin {
     public static void main(String[] args) {
 
+        int lista[] = {4,3};
         /* String [] userNames = new String[2];
         String [] passwords = new String[2];
         userNames[0] = "jkatz";
