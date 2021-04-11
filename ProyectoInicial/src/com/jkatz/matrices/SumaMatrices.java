@@ -31,7 +31,12 @@ public class SumaMatrices {
             }
             System.out.println();
         }
-
+        
+        TipoAuto[] tipos = TipoAuto.values();
+        for (TipoAuto ta: tipos ) {
+            System.out.println("tipos => "+ta.name() +" " + ta.getDescripcion() + ", "
+            + ta.getNombre() +", " + ta.getNumeroPuerta() +"\n");
+        }
     }
 
 }
