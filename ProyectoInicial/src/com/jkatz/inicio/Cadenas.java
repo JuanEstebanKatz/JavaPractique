@@ -8,6 +8,12 @@ public class Cadenas {
         String profe = "Juan Esteban katz";
         String curso2 = new String("Programacion Java");
 
+        String resultados =curso.concat(profe);
+        System.out.println(resultados);
+
+        resultados.replace("a","A");
+        System.out.println("resultado = " + resultados);
+
         boolean esigual =  curso==curso2;
         System.out.println("curso == curso2 = " + esigual);
 
@@ -26,9 +32,11 @@ public class Cadenas {
         System.out.println("curso = " + curso);
         System.out.println("resultado = " + resultado);
 
+        // con expresion lambda, transform retorna una nueva instancia:
        String otroString = curso.transform(c -> {
             return  c + " con " + profe;
         });
+
         System.out.println("otroString = " + otroString);
         //System.out.println("curso = " + curso);
 
