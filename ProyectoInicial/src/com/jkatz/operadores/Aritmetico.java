@@ -32,6 +32,8 @@ public class Aritmetico {
         ////////////Operadores Incrementales
 
         //pre incremento
+        System.out.println("Operadores Incrementales");
+        System.out.println("pre incremento ");
         i=1;
         j= ++i; // j=2
         System.out.println("i = " + i);
