@@ -11,21 +11,22 @@ public class Example {
 
     public static void main(String[] args) {
 
-        int [] myArray=  new int[]{3,2,4 };
-        int target = 5;
-        int total, index1=0, index2 =0;
+        int[] myArray = new int[]{3, 2, 7, 4};
+        int target = 7, index1 = 0, index2 = 0;
 
-        for(int i=0; i<myArray.length;i++){
-            if(i != myArray.length){
-                total =myArray[i]+ myArray[i+1];
-                if(total ==target){
-                    index1=i;
-                    index2=i+1;
-                    System.out.println(index1 +", "+ index2);
-                    return;
-                }else{
-                    total =0;
+        for (int i = 0; i < myArray.length; i++) {
+            for (int j = 0; j < myArray.length; j++) {
+                if (i == j) {
+                    break;
+                } else {
+                    if (myArray[i] + myArray[j] == target) {
+                        index1 = i;
+                        index2 = j;
+                        System.out.println(index1 + ", " + index2);
+                        return;
+                    }
                 }
+
             }
 
         }
