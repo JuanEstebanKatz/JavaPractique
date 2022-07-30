@@ -26,6 +26,6 @@ public class EjemploFunction {
         // Esta recibe 2 argumentos
 
         BiFunction<String, String, String> f3 =(a,b) -> a.toUpperCase().concat(b.toUpperCase());
-        System.out.println(f3.apply("Lupe","el migue cas"));
+        System.out.println(f3.apply("Lupe ","el migue cas"));
     }
 }

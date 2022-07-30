@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class OperadoresLogicosLogin {
     public static void main(String[] args) {
 
-        int lista[] = {4,3};
+        int[] lista = {4,3};
         /* String [] userNames = new String[2];
         String [] passwords = new String[2];
         userNames[0] = "jkatz";
@@ -31,7 +31,7 @@ public class OperadoresLogicosLogin {
 //                esAutenticado= true;
 //                break;
 //            }
-            esAutenticado = (userNames[i].equals(u) && passwords[i].equals(p) ? true:esAutenticado);
+            esAutenticado = (userNames[i].equals(u) && passwords[i].equals(p) || esAutenticado);
         }
 
         String mensaje= esAutenticado ?"Bienvenido ".concat(u).concat("!!"):"Username o contraseña incorrectos";

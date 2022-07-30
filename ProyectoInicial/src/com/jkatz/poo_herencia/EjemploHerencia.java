@@ -9,7 +9,7 @@ public class EjemploHerencia {
         System.out.println(" =========================== creando la instancia de Alumno " );
         Alumno alumno = new Alumno();
        // alumno.nombre ="Migue"; // si el atributo es protejido le puedo asignar de forma directa
-        alumno.setNombre("Migue");;
+        alumno.setNombre("Migue");
         alumno.setApellido("klatz");
         alumno.setNotaEspañol(3.7);
         alumno.setNotaHistoria(3.9);

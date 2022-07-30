@@ -6,10 +6,10 @@ public interface Imprimible {
         return "Imprimiendo un valor por defecto";
     }*/
 
-    final static String TEXTO_DEFAULT= "Esto es un texto estatico de la interfazzzzzz";
+    String TEXTO_DEFAULT= "Esto es un texto estatico de la interfazzzzzz";
     String imprimir();
 
-    public static void imprimir(Imprimible imprimible) {
+    static void imprimir(Imprimible imprimible) {
         System.out.println( imprimible.imprimir());
     }
 

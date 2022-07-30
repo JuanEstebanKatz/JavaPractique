@@ -5,9 +5,9 @@ import java.util.List;
 
 public class Curriculum  extends Hoja implements Imprimible{
 
-    private String persona;
-    private String carrera;
-    private List<String> experiencia;
+    private final String persona;
+    private final String carrera;
+    private final List<String> experiencia;
 
     public Curriculum(String persona, String carrera,String contenido) {
         super(contenido);

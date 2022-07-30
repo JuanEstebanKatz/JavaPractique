@@ -25,7 +25,7 @@ public class Exam {
         }
         System.out.println(" uno aparece = " + uno +"\n dos aparece "+dos+"\n tres aparece "+tres+"\n cuatro aparece "+ cuatro+"\n cinque aparece "+cinco);
 
-        int numerosTotal [] ={uno,dos,tres,cuatro,cinco};
+        int[] numerosTotal ={uno,dos,tres,cuatro,cinco};
 
         for (int j=0;j<numerosTotal.length;j++){
             System.out.print(j+1 +": ");

@@ -6,7 +6,7 @@ public class Cadenas {
 
         String curso = "Programacion Java";
         String profe = "Juan Esteban katz";
-        String curso2 = new String("Programacion Java");
+        String curso2 = "Programacion Java";
 
         String resultados =curso.concat(profe);
         System.out.println(resultados);

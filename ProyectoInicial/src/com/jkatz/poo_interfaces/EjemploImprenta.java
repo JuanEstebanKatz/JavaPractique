@@ -10,8 +10,8 @@ public class EjemploImprenta {
 
      Informe informe = new Informe("san Miguel", "Santa Ana", "Estudio de microservicios lupeño");
 
-     Libro libro = new Libro("jkatz","Patrones de diseño", Genero.ACCION);;
-     libro.addPagina( new Pagina("Patron Singleton"))
+     Libro libro = new Libro("jkatz","Patrones de diseño", Genero.ACCION);
+        libro.addPagina( new Pagina("Patron Singleton"))
              .addPagina(new Pagina("Patron composite"))
              .addPagina(new Pagina("Patron fachada"));
 

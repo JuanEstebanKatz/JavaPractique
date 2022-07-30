@@ -1,7 +1,7 @@
 package com.jkatz.appfacutras.modelo;
 
 public class Producto {
-    private int codigo;
+    private final int codigo;
     private String nombre;
     private float precio;
     private static int ultimoCodigo;

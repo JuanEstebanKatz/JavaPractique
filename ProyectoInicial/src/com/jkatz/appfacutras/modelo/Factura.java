@@ -8,7 +8,7 @@ public class Factura {
     private String descripcion;
     private Date fecha;
     private Cliente cliente;
-    private ItemFactura [] items;
+    private final ItemFactura [] items;
     private int indiceItems;
     public static final int MAX_ITEMS = 12;
     private static int ultimoFolio;
@@ -17,7 +17,7 @@ public class Factura {
         this.descripcion = descripcion;
         this.cliente = cliente;
         this.items = new ItemFactura[MAX_ITEMS];
-        this.ultimoFolio = ++ultimoFolio;
+        ultimoFolio = ++ultimoFolio;
         this.fecha = new Date();
     }
 

@@ -26,7 +26,7 @@ public class PizzaOrder {
     final List<PizzaOrder> orders = new ArrayList<>();
     ///getMostRecentPlacedOrder(orders);
 
-    public  List<PizzaOrder> getMostRecentPlacedOrder(PizzaOrder orders[]) {
+    public  List<PizzaOrder> getMostRecentPlacedOrder(PizzaOrder[] orders) {
         int numberOfOrder =0;
         List<PizzaOrder> mostRecent = new ArrayList<>();
         for (int i= 0; i<orders.length;i++) {
