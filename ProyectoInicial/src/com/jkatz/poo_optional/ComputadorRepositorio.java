@@ -12,7 +12,12 @@ public class ComputadorRepositorio implements Repositorio<Computador> {
 
     public ComputadorRepositorio() {
         dataSource = new ArrayList<>();
-        dataSource.add(new Computador("Asus Rock", "Strix512"));
+        Procesador proc = new Procesador("I9-9880H",new Fabricante("intel"));
+        Computador asus = new Computador("Asus Rock", "Strix512");
+        asus.setProcesador(proc);
+       // dataSource.add(new Computador("Asus Rock", "Strix512"));
+        dataSource.add(asus);
+
         dataSource.add(new Computador("MackBook Pro", "MVC2CI"));
     }
 
